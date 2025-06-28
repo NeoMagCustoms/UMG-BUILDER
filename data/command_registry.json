@@ -1,0 +1,7 @@
+{
+  "write_file": {
+    "function": "write_file",
+    "module": "src.agent_commands",
+    "description": "Writes content to a specified file"
+  }
+}
