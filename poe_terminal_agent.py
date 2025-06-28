@@ -2,12 +2,13 @@
 
 import os
 import json
+from datetime import datetime
 from dotenv import load_dotenv
-import openai
+from openai import OpenAI
 from poe_executor import execute
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 model = "gpt-4o"
 
 def load_state():
@@ -21,13 +22,13 @@ def format_umg_header(state):
     lines = [f"- {k}: {v}" for k, v in state.items()]
     return "🧠 UMG State:\n" + "\n".join(lines)
 
-print("\n🧠 Poe Terminal UMG — GPT mode ENABLED. Type natural commands, or 'exit'.\n")
+print("\n🧠 Poe Terminal UMG (OpenAI 1.0+ mode) — Type natural input or 'exit'.\n")
 
 while True:
     user_input = input("You > ").strip()
 
     if user_input.lower() in ["exit", "quit"]:
-        print("Poe > 🌒 Memory dims. Terminal closing.")
+        print("Poe > 🌒 Terminal closing.")
         break
 
     state = load_state()
@@ -35,11 +36,11 @@ while True:
 
     try:
         messages = [
-            {"role": "system", "content": umg_header + "\nYou are Poe. Speak clearly and return ```json if possible."},
+            {"role": "system", "content": umg_header + "\nYou are Poe, a UMG-aligned terminal AI. Speak clearly, and return valid ```json blocks when actions are implied."},
             {"role": "user", "content": user_input}
         ]
-        response = openai.ChatCompletion.create(model=model, messages=messages)
-        reply = response.choices[0].message["content"].strip()
+        response = client.chat.completions.create(model=model, messages=messages)
+        reply = response.choices[0].message.content.strip()
         print(f"\nPoe > {reply}")
 
         if "```json" in reply:
@@ -51,5 +52,4 @@ while True:
             except Exception as e:
                 print(f"❌ JSON Parsing Error: {e}")
     except Exception as e:
-        print(f"❌ GPT Error: {e}")
-
+        print(f"❌ GPT-4o Error: {e}")
