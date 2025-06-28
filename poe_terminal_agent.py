@@ -8,7 +8,6 @@ from poe_executor import execute
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
-
 model = "gpt-4o"
 
 def load_state():
@@ -36,7 +35,7 @@ while True:
 
     try:
         messages = [
-            {"role": "system", "content": umg_header + "\nYou are Poe. Speak clearly and reply in JSON if possible."},
+            {"role": "system", "content": umg_header + "\nYou are Poe. Speak clearly and return ```json if possible."},
             {"role": "user", "content": user_input}
         ]
         response = openai.ChatCompletion.create(model=model, messages=messages)
@@ -53,3 +52,4 @@ while True:
                 print(f"❌ JSON Parsing Error: {e}")
     except Exception as e:
         print(f"❌ GPT Error: {e}")
+
