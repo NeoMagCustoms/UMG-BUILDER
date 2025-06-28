@@ -3,5 +3,10 @@
     "function": "write_file",
     "module": "src.agent_commands",
     "description": "Writes content to a specified file"
+  },
+  "generate_umg_block": {
+    "function": "generate_umg_block",
+    "module": "src.agent_commands",
+    "description": "Generates a UMG-compatible modular block"
   }
 }
