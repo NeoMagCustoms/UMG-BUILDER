@@ -2,11 +2,21 @@
   "write_file": {
     "function": "write_file",
     "module": "src.agent_commands",
-    "description": "Writes content to a specified file"
+    "description": "Writes content to a file"
+  },
+  "read_file": {
+    "function": "read_file",
+    "module": "src.agent_commands",
+    "description": "Reads and returns content from a file"
   },
   "generate_umg_block": {
     "function": "generate_umg_block",
     "module": "src.agent_commands",
-    "description": "Generates a UMG-compatible modular block"
+    "description": "Creates and saves a UMG block as JSON"
+  },
+  "log_block": {
+    "function": "log_block",
+    "module": "src.agent_commands",
+    "description": "Saves a block structure to memory/logs"
   }
 }
