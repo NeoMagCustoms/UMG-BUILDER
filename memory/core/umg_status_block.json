@@ -1,0 +1,39 @@
+{
+  "block_id": "UMG.STATUS.CORE.PROGRESS.V1",
+  "label": "UMG Citadel Build Tracker",
+  "molt_type": "Instruction",
+  "category": "Meta",
+  "tags": ["status", "recap", "plan", "endcap"],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  },
+  "instruction": {
+    "current_phase": "CANTOMIRROR ACTIVATE",
+    "context": "Terminal-Only UMG Builder Project using PoeGPT as modular console agent",
+    "rules": [
+      "Never insert fragments or snippets.",
+      "Always paste full files with Nano, Git commit immediately after.",
+      "Do not suggest commands unless asked.",
+      "No plugin logic, no external dependencies, no GUI unless re-requested.",
+      "All cognition follows UMG MOLT structure and speaks in block syntax."
+    ],
+    "what_is_done": [
+      "✅ Terminal agent built for GPT-4o with memory state injection",
+      "✅ Execution engine (executor) fully wired to registry and command files",
+      "✅ Agent commands implemented: write_file, read_file, generate_umg_block, log_block",
+      "✅ Full Cantocore builder structure: blocks/, sleeves/, vaults/, overlays/",
+      "✅ Git initialized and clean with .env safety, requirements.txt locked"
+    ],
+    "next_steps": [
+      "🧠 Enable Poe to list and summarize blocks in memory/overlays",
+      "📜 Create vault_index.json and link project plans",
+      "🔁 Build Cantocore parser and validator to inspect pasted blocks",
+      "🧩 Allow switching sleeves and block stacks live",
+      "🛰️ Optional: add Git sync tools (push, status, log) to Poe"
+    ]
+  }
+}
+
