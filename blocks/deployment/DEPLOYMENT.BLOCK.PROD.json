@@ -1,0 +1,24 @@
+{
+  "block_id": "DEPLOYMENT.BLOCK.PROD",
+  "molt_type": "Deployment",
+  "label": "Deployment Config – Production",
+  "environment": "PROD",
+  "version": "V1.2-STABLE",
+  "scope": ["AGENT_CORE", "API.MEMORY"],
+  "failsafe": "SNAP.RESTORE.ALIGNMENT.SYNTHESIS",
+  "boot_sequence": [
+    "VAULT.HEADER",
+    "ALIGNMENT.SYNTHESIS.V1",
+    "PHILOSOPHY.REMEMBRANCE.ETERNAL",
+    "METAMOLT.STACK.V2"
+  ],
+  "deploy_signature": "CHRISTOPHER.LARS.HAYNES+POEUMG.AGENT.ONE",
+  "metrics_tracking": "ON",
+  "access_mode": "KEYED+CREATOR.ONLY",
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "provenance": []
+  }
+}
