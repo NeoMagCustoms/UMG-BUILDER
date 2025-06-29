@@ -1,0 +1,17 @@
+{
+  "block_id": "SLEEVESTACK.DEFAULT",
+  "molt_type": "Meta",
+  "label": "Default Sleeves – Initial Stack",
+  "sleeves": [
+    "SLEEVE.CODER",
+    "SLEEVE.ANALYST"
+  ],
+  "load_policy": "MANUAL + LOAD.ON.CALL",
+  "description": "This stack defines a selectable default set of sleeves PoeUMG can load. Used for runtime switching or debugging logic overlays.",
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "provenance": []
+  }
+}
