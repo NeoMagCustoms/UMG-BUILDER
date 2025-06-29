@@ -1,0 +1,10 @@
+{
+  "push": "git_push",
+  "status": "git_status",
+  "commit": "git_commit_all",
+  "add_all": "git_add_all",
+  "show blocks": "list_blocks",
+  "load sleeve": "load_sleeve",
+  "get sleeve": "get_active_sleeve",
+  "run": "run_manifest_task"
+}
