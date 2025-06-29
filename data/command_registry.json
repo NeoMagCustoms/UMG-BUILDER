@@ -18,5 +18,15 @@
     "function": "log_block",
     "module": "src.agent_commands",
     "description": "Saves a block structure to memory/logs"
+  },
+  "list_blocks": {
+    "function": "list_blocks",
+    "module": "src.agent_commands",
+    "description": "Lists all blocks in a directory (default: memory/overlays/)"
+  },
+  "validate_block": {
+    "function": "validate_block",
+    "module": "src.agent_commands",
+    "description": "Validates a block at a given path (UMG + CPF schema)"
   }
 }
