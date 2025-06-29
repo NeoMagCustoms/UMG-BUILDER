@@ -1,14 +1,4 @@
 {
-  "write_file": {
-    "function": "write_file",
-    "module": "src.agent_commands",
-    "description": "Writes content to a file"
-  },
-  "read_file": {
-    "function": "read_file",
-    "module": "src.agent_commands",
-    "description": "Reads and returns content from a file"
-  },
   "generate_umg_block": {
     "function": "generate_umg_block",
     "module": "src.agent_commands",
@@ -28,5 +18,30 @@
     "function": "validate_block",
     "module": "src.agent_commands",
     "description": "Validates a block at a given path (UMG + CPF schema)"
+  },
+  "read_file": {
+    "function": "read_file",
+    "module": "src.agent_commands",
+    "description": "Reads and returns contents of a file"
+  },
+  "write_file": {
+    "function": "write_file",
+    "module": "src.agent_commands",
+    "description": "Writes content to a file at a specified path"
+  },
+  "load_sleeve": {
+    "function": "load_sleeve",
+    "module": "src.sleeve_manager",
+    "description": "Loads a single sleeve and writes to active_state.json"
+  },
+  "get_active_sleeve": {
+    "function": "get_active_sleeve",
+    "module": "src.sleeve_manager",
+    "description": "Returns currently loaded sleeve ID"
+  },
+  "run_manifest_task": {
+    "function": "run_manifest_task",
+    "module": "src.poe_executor",
+    "description": "Execute system command based on manifest_tasks.json entry"
   }
 }
