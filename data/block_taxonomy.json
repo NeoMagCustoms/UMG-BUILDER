@@ -1,0 +1,35 @@
+{
+  "molt_types": [
+    "Primary",
+    "Subject",
+    "Instruction",
+    "Directive",
+    "Philosophy",
+    "Blueprint",
+    "Trigger",
+    "Meta",
+    "Deployment",
+    "Sleeve",
+    "Off"
+  ],
+  "snap_zones": [
+    "top",
+    "bottom",
+    "left",
+    "right",
+    "stack",
+    "overlay"
+  ],
+  "runtime_behavior_flags": [
+    "is_primary_directive",
+    "parent_context_mode",
+    "is_active",
+    "sandbox_only"
+  ],
+  "valid_fit_score_range": [0.0, 1.0],
+  "merge_behavior_modes": [
+    "layered_if_non_conflict",
+    "override",
+    "skip_if_present"
+  ]
+}
