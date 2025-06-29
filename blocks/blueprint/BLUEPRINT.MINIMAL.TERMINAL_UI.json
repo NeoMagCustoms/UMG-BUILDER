@@ -1,0 +1,20 @@
+{
+  "block_id": "BLUEPRINT.MINIMAL.TERMINAL_UI",
+  "molt_type": "Blueprint",
+  "label": "Minimal Terminal UI Blueprint",
+  "format": {
+    "layout": "single_column",
+    "font": "monospace",
+    "padding": "small",
+    "theme": "dark",
+    "style_notes": "Use box-drawing characters for dividers; avoid emojis unless used for emphasis."
+  },
+  "description": "Defines minimal layout for terminal-first interactions and text-only interfaces.",
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "provenance": []
+  }
+}
+
