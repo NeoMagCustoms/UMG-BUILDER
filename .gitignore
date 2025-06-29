@@ -5,3 +5,8 @@ logs/
 *.pyc
 
 
+.env
+__pycache__/
+logs/
+*.log
+memory/adaptation_logs/
