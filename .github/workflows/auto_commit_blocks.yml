@@ -1,0 +1,30 @@
+name: Auto-Commit UMG Blocks
+
+on:
+  push:
+    paths:
+      - 'memory/overlays/**.json'
+      - 'blocks/**.json'
+  workflow_dispatch:
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "UMG-Bot"
+          git config --global user.email "umg-bot@nowhere.local"
+
+      - name: Add & commit updated blocks
+        run: |
+          git add memory/overlays blocks || true
+          if git diff --cached --quiet; then
+              echo "No block changes to commit."
+          else
+              git commit -m "🤖 Auto-commit structured UMG blocks"
+              git push
+          fi
