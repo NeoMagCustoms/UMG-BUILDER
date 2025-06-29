@@ -1,0 +1,515 @@
+- type: Blueprint
+  label: Frontend Architecture
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Frontend Architecture'
+  tags:
+  - WebApp
+  - UMG
+  - Category1
+  version: v1.0
+  cantocore: WEBAPP.FRONTEND_ARCHITECTURE.V1; CATEGORY=1; DESC=Frontend Architecture
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Backend / Server Logic
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Backend / Server Logic'
+  tags:
+  - WebApp
+  - UMG
+  - Category2
+  version: v1.0
+  cantocore: WEBAPP.BACKEND___SERVER_LOGIC.V1; CATEGORY=2; DESC=Backend / Server Logic
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Authentication & Identity
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Authentication & Identity'
+  tags:
+  - WebApp
+  - UMG
+  - Category3
+  version: v1.0
+  cantocore: WEBAPP.AUTHENTICATION_&_IDENTITY.V1; CATEGORY=3; DESC=Authentication
+    & Identity
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Database & Data Models
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Database & Data Models'
+  tags:
+  - WebApp
+  - UMG
+  - Category4
+  version: v1.0
+  cantocore: WEBAPP.DATABASE_&_DATA_MODELS.V1; CATEGORY=4; DESC=Database & Data Models
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: API Integration & Webhooks
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: API Integration & Webhooks'
+  tags:
+  - WebApp
+  - UMG
+  - Category5
+  version: v1.0
+  cantocore: WEBAPP.API_INTEGRATION_&_WEBHOOKS.V1; CATEGORY=5; DESC=API Integration
+    & Webhooks
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Styling & Design System
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Styling & Design System'
+  tags:
+  - WebApp
+  - UMG
+  - Category6
+  version: v1.0
+  cantocore: WEBAPP.STYLING_&_DESIGN_SYSTEM.V1; CATEGORY=6; DESC=Styling & Design
+    System
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Responsive & PWA Framework
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Responsive & PWA Framework'
+  tags:
+  - WebApp
+  - UMG
+  - Category7
+  version: v1.0
+  cantocore: WEBAPP.RESPONSIVE_&_PWA_FRAMEWORK.V1; CATEGORY=7; DESC=Responsive & PWA
+    Framework
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: State & Context Management
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: State & Context Management'
+  tags:
+  - WebApp
+  - UMG
+  - Category8
+  version: v1.0
+  cantocore: WEBAPP.STATE_&_CONTEXT_MANAGEMENT.V1; CATEGORY=8; DESC=State & Context
+    Management
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Analytics & Event Tracking
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Analytics & Event Tracking'
+  tags:
+  - WebApp
+  - UMG
+  - Category9
+  version: v1.0
+  cantocore: WEBAPP.ANALYTICS_&_EVENT_TRACKING.V1; CATEGORY=9; DESC=Analytics & Event
+    Tracking
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Deployment & Environment Configuration
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Deployment & Environment Configuration'
+  tags:
+  - WebApp
+  - UMG
+  - Category10
+  version: v1.0
+  cantocore: WEBAPP.DEPLOYMENT_&_ENVIRONMENT_CONFIGURATION.V1; CATEGORY=10; DESC=Deployment
+    & Environment Configuration
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Security & Compliance
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Security & Compliance'
+  tags:
+  - WebApp
+  - UMG
+  - Category11
+  version: v1.0
+  cantocore: WEBAPP.SECURITY_&_COMPLIANCE.V1; CATEGORY=11; DESC=Security & Compliance
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Dev Tools & Developer Experience Enhancements
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Dev Tools & Developer Experience
+    Enhancements'
+  tags:
+  - WebApp
+  - UMG
+  - Category12
+  version: v1.0
+  cantocore: WEBAPP.DEV_TOOLS_&_DEVELOPER_EXPERIENCE_ENHANCEMENTS.V1; CATEGORY=12;
+    DESC=Dev Tools & Developer Experience Enhancements
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Modular Feature Logic Blocks
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Modular Feature Logic Blocks'
+  tags:
+  - WebApp
+  - UMG
+  - Category13
+  version: v1.0
+  cantocore: WEBAPP.MODULAR_FEATURE_LOGIC_BLOCKS.V1; CATEGORY=13; DESC=Modular Feature
+    Logic Blocks
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Testing & Quality Assurance
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Testing & Quality Assurance'
+  tags:
+  - WebApp
+  - UMG
+  - Category14
+  version: v1.0
+  cantocore: WEBAPP.TESTING_&_QUALITY_ASSURANCE.V1; CATEGORY=14; DESC=Testing & Quality
+    Assurance
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Documentation & System Maps
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Documentation & System Maps'
+  tags:
+  - WebApp
+  - UMG
+  - Category15
+  version: v1.0
+  cantocore: WEBAPP.DOCUMENTATION_&_SYSTEM_MAPS.V1; CATEGORY=15; DESC=Documentation
+    & System Maps
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Media Handling (Upload, Stream, Optimize)
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Media Handling (Upload, Stream,
+    Optimize)'
+  tags:
+  - WebApp
+  - UMG
+  - Category16
+  version: v1.0
+  cantocore: WEBAPP.MEDIA_HANDLING_(UPLOAD,_STREAM,_OPTIMIZE).V1; CATEGORY=16; DESC=Media
+    Handling (Upload, Stream, Optimize)
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Real-Time Communication (Sockets, Chat, Presence)
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Real-Time Communication (Sockets,
+    Chat, Presence)'
+  tags:
+  - WebApp
+  - UMG
+  - Category17
+  version: v1.0
+  cantocore: WEBAPP.REAL_TIME_COMMUNICATION_(SOCKETS,_CHAT,_PRESENCE).V1; CATEGORY=17;
+    DESC=Real-Time Communication (Sockets, Chat, Presence)
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: AI / LLM Agent Embeds & Tool Integration
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: AI / LLM Agent Embeds & Tool Integration'
+  tags:
+  - WebApp
+  - UMG
+  - Category18
+  version: v1.0
+  cantocore: WEBAPP.AI___LLM_AGENT_EMBEDS_&_TOOL_INTEGRATION.V1; CATEGORY=18; DESC=AI
+    / LLM Agent Embeds & Tool Integration
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: 3D, VR/AR, Canvas & WebGL Interfaces
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: 3D, VR/AR, Canvas & WebGL Interfaces'
+  tags:
+  - WebApp
+  - UMG
+  - Category19
+  version: v1.0
+  cantocore: WEBAPP.3D,_VR_AR,_CANVAS_&_WEBGL_INTERFACES.V1; CATEGORY=19; DESC=3D,
+    VR/AR, Canvas & WebGL Interfaces
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Multiplayer & Game State Logic
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Multiplayer & Game State Logic'
+  tags:
+  - WebApp
+  - UMG
+  - Category20
+  version: v1.0
+  cantocore: WEBAPP.MULTIPLAYER_&_GAME_STATE_LOGIC.V1; CATEGORY=20; DESC=Multiplayer
+    & Game State Logic
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Audio / Visual Input Interaction (Voice, Camera, MIDI)
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Audio / Visual Input Interaction
+    (Voice, Camera, MIDI)'
+  tags:
+  - WebApp
+  - UMG
+  - Category21
+  version: v1.0
+  cantocore: WEBAPP.AUDIO___VISUAL_INPUT_INTERACTION_(VOICE,_CAMERA,_MIDI).V1; CATEGORY=21;
+    DESC=Audio / Visual Input Interaction (Voice, Camera, MIDI)
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Monetization & Billing (Stripe, Subscriptions)
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Monetization & Billing (Stripe,
+    Subscriptions)'
+  tags:
+  - WebApp
+  - UMG
+  - Category22
+  version: v1.0
+  cantocore: WEBAPP.MONETIZATION_&_BILLING_(STRIPE,_SUBSCRIPTIONS).V1; CATEGORY=22;
+    DESC=Monetization & Billing (Stripe, Subscriptions)
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Localization / Internationalization
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Localization / Internationalization'
+  tags:
+  - WebApp
+  - UMG
+  - Category23
+  version: v1.0
+  cantocore: WEBAPP.LOCALIZATION___INTERNATIONALIZATION.V1; CATEGORY=23; DESC=Localization
+    / Internationalization
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Accessibility (a11y)
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Accessibility (a11y)'
+  tags:
+  - WebApp
+  - UMG
+  - Category24
+  version: v1.0
+  cantocore: WEBAPP.ACCESSIBILITY_(A11Y).V1; CATEGORY=24; DESC=Accessibility (a11y)
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Workflow Automation (No-Code / Internal Tools)
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Workflow Automation (No-Code /
+    Internal Tools)'
+  tags:
+  - WebApp
+  - UMG
+  - Category25
+  version: v1.0
+  cantocore: WEBAPP.WORKFLOW_AUTOMATION_(NO_CODE___INTERNAL_TOOLS).V1; CATEGORY=25;
+    DESC=Workflow Automation (No-Code / Internal Tools)
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: User-Generated Content & Moderation Systems
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: User-Generated Content & Moderation
+    Systems'
+  tags:
+  - WebApp
+  - UMG
+  - Category26
+  version: v1.0
+  cantocore: WEBAPP.USER_GENERATED_CONTENT_&_MODERATION_SYSTEMS.V1; CATEGORY=26; DESC=User-Generated
+    Content & Moderation Systems
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Notifications & System Messaging
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Notifications & System Messaging'
+  tags:
+  - WebApp
+  - UMG
+  - Category27
+  version: v1.0
+  cantocore: WEBAPP.NOTIFICATIONS_&_SYSTEM_MESSAGING.V1; CATEGORY=27; DESC=Notifications
+    & System Messaging
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Meta Settings & User Preferences Panels
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Meta Settings & User Preferences
+    Panels'
+  tags:
+  - WebApp
+  - UMG
+  - Category28
+  version: v1.0
+  cantocore: WEBAPP.META_SETTINGS_&_USER_PREFERENCES_PANELS.V1; CATEGORY=28; DESC=Meta
+    Settings & User Preferences Panels
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Deployment Targets (Web, Mobile, PWA, Hybrid)
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Deployment Targets (Web, Mobile,
+    PWA, Hybrid)'
+  tags:
+  - WebApp
+  - UMG
+  - Category29
+  version: v1.0
+  cantocore: WEBAPP.DEPLOYMENT_TARGETS_(WEB,_MOBILE,_PWA,_HYBRID).V1; CATEGORY=29;
+    DESC=Deployment Targets (Web, Mobile, PWA, Hybrid)
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
+- type: Blueprint
+  label: Integration Orchestration & Plugin Layers
+  molt_type: Blueprint
+  category: Web App
+  description: 'Web application architecture block: Integration Orchestration & Plugin
+    Layers'
+  tags:
+  - WebApp
+  - UMG
+  - Category30
+  version: v1.0
+  cantocore: WEBAPP.INTEGRATION_ORCHESTRATION_&_PLUGIN_LAYERS.V1; CATEGORY=30; DESC=Integration
+    Orchestration & Plugin Layers
+  ledger:
+    originator: Christopher L Haynes
+    verified_by: PoeUMG
+    created_at: '2025-06-29T00:00:00Z'
+    edit_log: []
