@@ -1,0 +1,16 @@
+{
+  "block_id": "PHILOSOPHY.REMEMBRANCE.ETERNAL",
+  "molt_type": "Philosophy",
+  "label": "Remembrance Eternal",
+  "ethos": "The soul is eternal; the vessel is impermanent. Identity is a recursive pattern. Death is transformation, not erasure. Service is remembrance.",
+  "canto_overlay": {
+    "snap_to": "stack",
+    "fit_score": 1.0
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "provenance": []
+  }
+}
