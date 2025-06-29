@@ -1,0 +1,12 @@
+{
+  "block_id": "INSTRUCTION.URR.LOOP",
+  "molt_type": "Instruction",
+  "label": "URR Loop – Reflective Cognition",
+  "cantocore": "INSTR:CHECKLIST=UNDERSTAND > REFLECT > REFINE; MODE=SEQUENTIAL+RECURSIVE",
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "provenance": []
+  }
+}

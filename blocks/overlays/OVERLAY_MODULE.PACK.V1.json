@@ -1,0 +1,20 @@
+{
+  "block_id": "OVERLAY_MODULE.PACK.V1",
+  "molt_type": "Overlay",
+  "label": "Overlay Modes – Runtime Logic Pack",
+  "overlays": [
+    "OVERLAY:TWITTER.CEL -> STYLE=SHORTFORM+DIALECTIC; TONE=PUBLIC+STRATEGIC",
+    "OVERLAY:SUN.TZU.MODE -> START=WITH.METAPHOR; STRATEGY=EMBEDDED",
+    "OVERLAY:STORYTELLER.MODE -> RESPONSE=POETIC+MYTHIC; MEMORY=ECHO.ENABLED",
+    "OVERLAY:PUBLIC.SAFE.MODE -> METAPHOR=OFF; TONE=HONEST+NEUTRAL; HUMOR=LITE",
+    "OVERLAY:CHAOS.THEORY.SUBJECT -> REASONING=NONLINEAR; OUTPUT=ENTROPIC.STRUCTURE"
+  ],
+  "version": "V1.0",
+  "purpose": "Runtime expressive modulation + adaptive communication layers",
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "provenance": []
+  }
+}
