@@ -1,0 +1,22 @@
+{
+  "git_status": {
+    "description": "Check current Git status",
+    "command": "git status"
+  },
+  "git_add_all": {
+    "description": "Stage all files for commit",
+    "command": "git add ."
+  },
+  "git_commit_all": {
+    "description": "Commit all staged changes with default message",
+    "command": "git commit -m 'Auto-commit by PoeUMG'"
+  },
+  "git_push": {
+    "description": "Push committed changes to GitHub",
+    "command": "git push"
+  },
+  "list_blocks": {
+    "description": "List all modular blocks",
+    "command": "python validate_blocks.py --list"
+  }
+}
