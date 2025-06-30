@@ -1,0 +1,36 @@
+name: Generate UMG Blocks from List
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "block_list.yaml"
+      - "scripts/build_blocks_from_list.py"
+
+jobs:
+  build_blocks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: pip install pyyaml
+
+      - name: Generate UMG Blocks
+        run: python scripts/build_blocks_from_list.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "poe-agent"
+          git config --global user.email "actions@github.com"
+          git add data/blocks/
+          git commit -m "Auto-generate UMG blocks from list"
+          git push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
