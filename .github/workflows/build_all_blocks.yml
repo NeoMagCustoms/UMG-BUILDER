@@ -11,6 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -20,15 +21,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install YAML Support
+      - name: Install PyYAML
         run: pip install pyyaml
 
       - name: Run UMG Block Builder
         run: python scripts/build_blocks_from_list.py
+
       - name: Commit and Push Generated Blocks
         run: |
           git config --global user.name "poe-agent"
           git config --global user.email "poe@builder.ai"
           git add data/blocks/
-          git commit -m "Auto-commit generated UMG blocks from build workflow" || echo "No changes to commit"
+          git diff-index --quiet HEAD || git commit -m "Auto-commit generated UMG blocks from workflow"
           git push origin main
