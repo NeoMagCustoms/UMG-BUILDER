@@ -1,0 +1,10 @@
+- category: 1_business_plans
+  blocks:
+    - 001_startup_plan
+    - 002_lean_plan
+    - 003_strategic_plan
+- category: 2_financial_reports
+  blocks:
+    - 001_profit_and_loss_statement
+    - 002_balance_sheet
+    - 003_cash_flow_statement
