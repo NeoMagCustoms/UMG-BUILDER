@@ -10,3 +10,5 @@ __pycache__/
 logs/
 *.log
 memory/adaptation_logs/
+memory/active_state.json
+memory/core/umg_status_block.json
