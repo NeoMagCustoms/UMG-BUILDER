@@ -1,0 +1,27 @@
+name: Generate All UMG Blocks
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/build_blocks_from_list.py'
+      - 'umg_master_blocks.yaml'
+      - '.github/workflows/build_all_blocks.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install YAML Support
+        run: pip install pyyaml
+
+      - name: Run UMG Block Builder
+        run: python scripts/build_blocks_from_list.py
