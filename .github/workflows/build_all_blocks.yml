@@ -25,3 +25,10 @@ jobs:
 
       - name: Run UMG Block Builder
         run: python scripts/build_blocks_from_list.py
+      - name: Commit and Push Generated Blocks
+        run: |
+          git config --global user.name "poe-agent"
+          git config --global user.email "poe@builder.ai"
+          git add data/blocks/
+          git commit -m "Auto-commit generated UMG blocks from build workflow" || echo "No changes to commit"
+          git push origin main
