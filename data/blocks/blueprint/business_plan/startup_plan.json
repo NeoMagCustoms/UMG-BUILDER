@@ -15,6 +15,19 @@
     "originator": "Christopher L Haynes",
     "verified_by": "PoeUMG",
     "created_at": "2025-06-29T19:39:51.633131Z",
-    "edit_log": []
+    "edit_log": [
+      {
+        "timestamp": "2025-06-29T18:38:54.601441",
+        "action": "fill_blocks",
+        "user": "Mag",
+        "change": "Filled block via Poe in Bolt"
+      }
+    ]
+  },
+  "snap_config": {
+    "snap_to": [
+      "stack"
+    ],
+    "fit_score": 100
   }
 }

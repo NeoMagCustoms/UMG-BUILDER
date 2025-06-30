@@ -1,0 +1,36 @@
+{
+  "block_id": "block_002_lean_plan",
+  "label": "Lean Plan",
+  "category": "1 Business Plans",
+  "description": "A UMG block for Lean Plan.",
+  "molt_type": "Primary",
+  "tags": [
+    "ai",
+    "umg",
+    "block",
+    "plan",
+    "lean",
+    "builder"
+  ],
+  "cantocore": "PRIM:LEAN_PLAN",
+  "snap_config": {
+    "snap_to": [
+      "stack"
+    ],
+    "fit_score": 100
+  },
+  "merge_logic": {},
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "2025-06-30T00:54:12.248129",
+    "edit_log": []
+  },
+  "display": {},
+  "code_modules": [],
+  "runtime_behavior_flags": {},
+  "agent_orchestration": {},
+  "integration_layer": {},
+  "future_extensions": [],
+  "example_block_data": {}
+}
